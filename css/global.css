@@ -79,7 +79,7 @@ header{width:7.5rem;height:.94rem;background-color:#fff;color:#313131;left:0;top
 .imgDiv a{float:left;margin:.04rem .11rem;}
 .imgDiv a img{width:1.6rem;height:1.6rem;}
 
-.sinImg{margin:0;padding:0;float:left;border:none;}
+.sinImg{margin:0;padding:0;float:left;border:none;max-width:410px;}
 
 .sinVideo{width:412px;height:326px;border:0px solid #000;margin:0;padding:0;float:left;}
 .sinVideo.nbt{border-top:0;border-bottom:0;}
