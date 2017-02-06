@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+<html>
+ <head>
+  <title>美国世界</title>
+  <meta name="robots" content="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="expires" content="expires" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="imagetoolbar" content="false" />
+  <meta http-equiv="cache-control" content="no-store, must-revalidate, no-cache" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <link href="css/global.css" type="text/css" rel="stylesheet" media="all" />
+  <script src="js/fixScreen.js" type="text/javascript" charset="utf-8"></script>
+ </head>
+
+ <body>
+
+  <div class="container" id="container">
+   <input type="checkbox" id="clickShowBtn" />
+   <div class="sideDiv">
+    <ul class="sideNav">
+     <li>
+      <a href="">
+       <b>亚洲</b>
+      </a>
+      <a href="">
+       <b>欧洲</b>
+      </a>
+      <a href="">
+       <b>北美洲</b>
+      </a>
+      <a href="">
+       <b>南美洲</b>
+      </a>
+      <a href="">
+       <b>大洋洲</b>
+      </a>
+      <a href="">
+       <b>非洲</b>
+      </a>
+     </li>
+    </ul>
+   </div>
+
+<script>
+bindWinScrollDoSideBar();
+function bindWinScrollDoSideBar(){$(".sideDiv").css("height", $(window).height());$(window).scroll(function(event){var height=$(".sideDiv").height()*1;var scrollHeight=$(document).height()*1;if(height<=scrollHeight){height=scrollHeight;}$(".sideDiv").css("height", height);});}
+</script>
+
+<!-- 主Sec -->
+   <section>
+   
+<!-- 顶部 -->
+    <header>
+    
+    <!-- Logo区 -->
+     <div class="logoWrap"><a href="javascript:;"><div class="logoInner"></div></a></div>
+    
+     <!-- 搜索图片 -->
+     <div class="searchImg"></div>
+     
+     <!-- 头像区 -->
+     <div class="user-info"><label for="clickShowBtn" class="user-info-label"><img id="usr_image" src="images/kz.jpg" /></label></div>
+    </header>
+
+<!-- 主内容区 -->
+    <div class="mainCon">
+  
+<!-- 站位 -->
+     <div style="height:.2rem;"></div>
+     
+     <div class="imgDiv">
+      <a href=""><img src="images/yz_sh.jpg" /></a>
+      <a href=""><img src="images/yz_xg.jpg" /></a>
+     </div>
+    </div>
+   </section>
+  </div>
+
+<!-- Js导入之底部 -->
+  <script src="js/p.js" type="text/javascript" charset="utf-8"></script>
+ </body>
+</html>
