@@ -73,10 +73,12 @@ header{width:7.5rem;height:.94rem;background-color:#fff;color:#313131;left:0;top
 .sideNav{padding:.15rem;}
 .sideNav li{list-style-type:none;}
 .sideNav a{color:#fff;text-decoration:none;}
+.sideNav a.active{color:#3bd692}
 .sideNav b{font-size:.25rem;font-weight:normal;line-height:.6rem;display:block;opacity:0;transform:translateX(0.6rem);transition:all .4s;}
 .sideNav img{display:block;top:.18rem;float:left;width:.4rem;height:.22rem;line-height:.6rem;position:relative}
 
 .imgDiv{margin:0 auto;width:100%;padding:0 .11rem;}
+.imgDiv>div{display:none}
 .imgDiv a{float:left;margin:.04rem .11rem;}
 .imgDiv a img{width:1.6rem;height:1.6rem;}
 
