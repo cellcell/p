@@ -21,10 +21,26 @@
  <body>
 
   <div class="container" id="container">
-   <img class="sinImg" style="max-width:414px;" src="http://68.media.tumblr.com/1c0242c490384a00f417570be4f94609/tumblr_ohrmx2dcUS1vmhaz9o1_1280.jpg">
-   
-   <img class="sinImg" style="max-width:414px;" src="http://68.media.tumblr.com/c43bd325be7ebe40ec4bee1803c64939/tumblr_ok4bq9kuGv1vstun5o1_1280.jpg" />
   </div>
 
+<script>
+var sec = "pa=";
+var locSe = location.search;
+if (locSe.indexOf(sec) != -1) {
+ var pas = locSe.substring(locSe.indexOf(sec) + sec.length, locSe.length);
+ var paArr = pas.split("SplitSec");
+ if (paArr) {
+  var len = paArr.length;
+  for (var i = 0; i < len; i++) {
+   var html = "";
+   html +="<img class=\"sinImg\" style=\"max-width:414px;\" src=\""+$.trim(paArr[i])+"\" />"+"\n";
+   debugger;
+   $("#container").append(html);
+  }
+ }
+} else {
+ $("#container").remove();
+}
+</script>
  </body>
 </html>
