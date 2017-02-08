@@ -4,7 +4,7 @@
 
 <html>
  <head>
-  <title>美国世界</title>
+  <title>单鸣图片</title>
   <meta name="robots" content="all" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -25,7 +25,7 @@
 
 <script>
 var sec = "pa=";
-var locSe = location.search;
+var locSe = location.search;// 最大65472个字符
 if (locSe.indexOf(sec) != -1) {
  var pas = locSe.substring(locSe.indexOf(sec) + sec.length, locSe.length);
  var paArr = pas.split("SplitSec");
@@ -34,7 +34,6 @@ if (locSe.indexOf(sec) != -1) {
   for (var i = 0; i < len; i++) {
    var html = "";
    html +="<img class=\"sinImg\" style=\"max-width:414px;\" src=\""+$.trim(paArr[i])+"\" />"+"\n";
-   debugger;
    $("#container").append(html);
   }
  }
