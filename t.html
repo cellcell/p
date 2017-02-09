@@ -30,15 +30,43 @@ if (locSe.indexOf(sec) != -1) {
  var pas = locSe.substring(locSe.indexOf(sec) + sec.length, locSe.length);
  var paArr = pas.split("SplitSec");
  if (paArr) {
+  var maxImgWidth = 414;
   var len = paArr.length;
   for (var i = 0; i < len; i++) {
    var html = "";
-   html +="<img class=\"sinImg\" style=\"max-width:414px;\" src=\""+$.trim(paArr[i])+"\" />"+"\n";
-   $("#container").append(html);
+   var imgId = ("sinImg"+i);
+   var imgSrc = $.trim(paArr[i]);
+   
+   var image = new Image();
+   image.id = imgId;
+   image.src = imgSrc;
+   image.className = "sinImg";
+   image.maxWidth = "100px";
+   $(image).css("max-width", maxImgWidth+"px");
+   
+   $("#container").append(image);
+   
+   scaleImage($("#"+imgId), maxImgWidth);
   }
  }
 } else {
  $("#container").remove();
+}
+
+// 等比缩放图片
+function scaleImage(imageObj, maxImgWidth) {
+	var image = new Image();
+	image.src = $(imageObj).attr("src");
+
+	image.onload = function() {
+	   var imgWidth = $(imageObj).width();
+	   var widthNew = imgWidth;
+	   var halfMaxWidth = maxImgWidth/2;// 一半
+	   if((halfMaxWidth<=imgWidth)&&imgWidth<maxImgWidth){
+		   widthNew = halfMaxWidth;
+	   }
+	   $(imageObj).width(widthNew);
+	};
 }
 </script>
  </body>
