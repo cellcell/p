@@ -81,7 +81,7 @@ function startClSinVideo(i, len, sinUrl){
 		 
 		 mapVeCanvas.put(cuTar, canvas);
 		 
-		alert(videoCount);
+		
 		 if(videoCount==(len-1)){
  		 	isLoadedmetadataOver = true;
  		 	startBindMp(cuTar, sinUrl);
@@ -93,7 +93,7 @@ function startClSinVideo(i, len, sinUrl){
 
 function startBindMp(cuTar, sinUrl) {
 	if(isLoadedmetadataOver) {
-		
+		alert(sinUrl);
 		if(mapVeCanvas&&mapVeCanvas.size()>0){
 			var size = mapVeCanvas.size();
 			for (var i = 0; i < size; i++) {
