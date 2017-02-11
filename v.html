@@ -70,7 +70,7 @@ function startClSinVideo(i, len, sinUrl){
 	var videoDom = $("#video" + i);
 	var videoZero = videoDom[0];
 	
-	videoZero.addEventListener("loadedmetadata", function(e) {
+	/* videoZero.addEventListener("loadedmetadata", function(e) {
 		 var cuTar = e.currentTarget;
 		 var canvas = document.createElement("canvas");
 		 canvas.width = cuTar.videoWidth * 1;
@@ -88,7 +88,7 @@ function startClSinVideo(i, len, sinUrl){
 	     }
 		 	   
 		videoCount++;
-	}, false);
+	}, false); */
 }
 
 function startBindMp(cuTar, sinUrl) {
