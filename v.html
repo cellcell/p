@@ -109,7 +109,6 @@ function startBindMp(cuTar, sinUrl) {
 			 	sin.key.pause();
 				
 			 	var isIos = browser.versions.ios;
-			 	alert(isIos);
 			 	var posterVal = "";
 			 	if(isIos) {
 			 		posterVal = "images/v/"+getFileOnlyName($(sin.key).find("source").attr("src"))+".jpg";
@@ -122,7 +121,6 @@ function startBindMp(cuTar, sinUrl) {
 					playText: "点击进行播放",
 					pauseOtherPlayers: false,// 当播放一个视频时是否停止其他视频
 					success : function(media) {
-						alert(1);
 						var cuMedia = $(media);
 						var cuVideo = cuMedia.find("video");
 						var cuVideoSrc = cuVideo.find("source").attr("src");
