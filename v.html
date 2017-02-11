@@ -110,13 +110,11 @@ function startBindMp(cuTar, sinUrl) {
 				
 			 	var isIos = browser.versions.ios;
 			 	var posterVal = "";
-			 		posterVal = "images/v/"+getFileOnlyName($(sin.key).find("source").attr("src"))+".jpg";
 			 	if(isIos) {
+			 		posterVal = "images/v/"+getFileOnlyName($(sin.key).find("source").attr("src"))+".jpg";
 			 	} else {
 			 		posterVal = canvasImg.src;
 			 	}
-			 	
-			 	alert("1");
 			 	
 				$($("video")[i]).mediaelementplayer({
 					poster: posterVal,
@@ -160,7 +158,7 @@ function qzDrawCanvas() {
 
 function getFileOnlyName(str) {
 	if (str.indexOf("/") != -1) {
-		str = str.substring(str.lastIndexOf("/") + 1, str.length());
+		str = str.substring(str.lastIndexOf("/") + 1, str.length);
 		if (str.indexOf(".") != -1) {
 			var result = str.substring(0, str.lastIndexOf("."));
 			return result;
