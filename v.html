@@ -92,23 +92,22 @@ function startClSinVideo(i, len, sinUrl){
 		 
 	}, false);
 	
-	alert("tt");
 	var cuTar = videoZero;
-	 var canvas = document.createElement("canvas");
-	 canvas.width = cuTar.videoWidth * 1;
-	 canvas.height = cuTar.videoHeight * 1;
-
-	 maVideo = cuTar;
-	 maCanvas = canvas;
-	 
-	 mapVeCanvas.put(cuTar, canvas);
-	 
-	 if(videoCount==(len-1)){
-	 	isLoadedmetadataOver = true;
-	 	startBindMp(cuTar, sinUrl);
-    }
-	 	   
-	videoCount++;
+    var canvas = document.createElement("canvas");
+    canvas.width = cuTar.videoWidth * 1;
+    canvas.height = cuTar.videoHeight * 1;
+   
+    maVideo = cuTar;
+    maCanvas = canvas;
+    
+    mapVeCanvas.put(cuTar, canvas);
+    
+    if(videoCount==(len-1)){
+    	isLoadedmetadataOver = true;
+    	startBindMp(cuTar, sinUrl);
+      }
+    	   
+   videoCount++;
 }
 
 function startBindMp(cuTar, sinUrl) {
