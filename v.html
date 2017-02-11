@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+
+<html>
+ <head>
+  <title>单鸣视频</title>
+  <meta name="robots" content="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="expires" content="expires" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="imagetoolbar" content="false" />
+  <meta http-equiv="cache-control" content="no-store, must-revalidate, no-cache" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <link href="css/global.css" type="text/css" rel="stylesheet" media="all" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" type="text/css" rel="stylesheet" media="all" />
+  <link href="css/mediaelementplayer.min.css" type="text/css" rel="stylesheet" media="all" />
+  <style>
+  video{display:block;max-width:100%;max-height:100%;}
+  </style>
+ </head>
+
+ <body>
+ 
+  <div id="container">
+  </div>
+  
+<!-- Js -->
+  <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/varMap.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/mediaelement-and-player.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/v.js" type="text/javascript" charset="utf-8"></script>
+<script>
+var sec = "pa=";
+var maVideo = null;
+var maCanvas = null;
+var videoCount = 0;
+var mapVideos = new Map();
+var mapVeCanvas = new Map();
+var isLoadedmetadataOver = false;
+
+var drawCanvasJb = null;
+var startBindMpJb = null;
+var getCanvasImageJb = null;
+var locSe = location.search;
+
+if (locSe.indexOf(sec) != -1) {
+	var pas = locSe.substring(locSe.indexOf(sec) + sec.length, locSe.length);
+	var paArr = pas.split("SplitSec");
+	if (paArr) {
+		var len = paArr.length;
+		
+		for (var i = 0; i < len; i++) {
+			var sinUrl = $.trim(paArr[i]);
+			startClSinVideo(i, len, sinUrl);
+		}
+	}
+} else {
+	$("#container").remove();
+}
+
+function startClSinVideo(i, len, sinUrl){
+	var html = "";
+	html += "<video id=\"video" + i + "\" playsinline controls>" + "\n";
+	html += " <source src=\""+ sinUrl +"\" type=\"video/mp4\" />" + "\n";
+	html += "</video>" + "\n";
+	$("#container").append(html);
+	
+	var videoDom = $("#video" + i);
+	var videoZero = videoDom[0];
+	
+	videoZero.addEventListener("loadedmetadata", function(e) {
+		 var cuTar = e.currentTarget;
+		 var canvas = document.createElement("canvas");
+		 canvas.width = cuTar.videoWidth * 1;
+		 canvas.height = cuTar.videoHeight * 1;
+
+		 maVideo = cuTar;
+		 maCanvas = canvas;
+		 
+		 mapVeCanvas.put(cuTar, canvas);
+		 
+		
+		 if(videoCount==(len-1)){
+ 		 	isLoadedmetadataOver = true;
+ 		 	startBindMp(cuTar, sinUrl);
+	     }
+		 	   
+		videoCount++;
+	}, false);
+}
+
+function startBindMp(cuTar, sinUrl) {
+	if(isLoadedmetadataOver) {
+		
+		if(mapVeCanvas&&mapVeCanvas.size()>0){
+			var size = mapVeCanvas.size();
+			for (var i = 0; i < size; i++) {
+				var sin = mapVeCanvas.element(i);
+				var value = sin.value;
+
+				index = i;
+				qzDrawCanvas();
+				
+				var canvasImg = getCanvasImage(value);
+		 		
+			 	window.clearTimeout(drawCanvasJb);
+			 	sin.key.pause();
+				
+			 	var isIos = browser.versions.ios;
+			 	var posterVal = "";
+			 	if(isIos) {
+			 	alert("1");
+			 		posterVal = "images/v/"+getFileOnlyName($(sin.key).find("source").attr("src"))+".jpg";
+			 	} else {
+			 		posterVal = canvasImg.src;
+			 	}
+			 	alert("2");
+				$($("video")[i]).mediaelementplayer({
+					poster: posterVal,
+					playText: "点击进行播放",
+					pauseOtherPlayers: false,// 当播放一个视频时是否停止其他视频
+					success : function(media) {
+						var cuMedia = $(media);
+						var cuVideo = cuMedia.find("video");
+						var cuVideoSrc = cuVideo.find("source").attr("src");
+						var cuVideoSrcCun = cuVideoSrc.substring(0, cuVideoSrc.lastIndexOf("."));
+						var pa = cuMedia.parent().parent();
+						var mePoster = $(pa).find(".mejs__poster");
+						var posterImg = mePoster.find("img");
+						var posterSrc = posterImg.attr("src");
+					}
+				});
+			}
+		}
+		
+		window.clearTimeout(drawCanvasJb);
+	}
+}
+
+function getCanvasImage(canvas) {
+	var sin = mapVeCanvas.element(index);
+	var video = sin.key;
+	var canvas = sin.value;
+	
+    var img = document.createElement("img");
+    img.src = canvas.toDataURL("image/png");
+    return img;
+};
+
+function qzDrawCanvas() {
+	var sin = mapVeCanvas.element(index);
+	var video = sin.key;
+	var canvas = sin.value;
+	canvas.getContext("2d").drawImage(video, 0, 0, canvas.width, canvas.height);
+    drawCanvasJb = setTimeout(qzDrawCanvas, 1);
+}
+
+function getFileOnlyName(str) {
+	if (str.indexOf("/") != -1) {
+		str = str.substring(str.lastIndexOf("/") + 1, str.length);
+		if (str.indexOf(".") != -1) {
+			var result = str.substring(0, str.lastIndexOf("."));
+			return result;
+		}
+	}else{
+		if (str.indexOf(".") != -1) {
+			var result = str.substring(0, str.lastIndexOf("."));
+			return result;
+		}
+	}
+	return str;
+}
+
+var browser = {
+	versions : function() {
+		var u = navigator.userAgent, app = navigator.appVersion;
+		return {
+			trident : u.indexOf('Trident') > -1,
+			presto : u.indexOf('Presto') > -1,
+			webKit : u.indexOf('AppleWebKit') > -1,
+			gecko : u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,
+			mobile : !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), 
+			ios : !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+			android : u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, 
+			iPhone : u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1,
+			iPad : u.indexOf('iPad') > -1,
+			webApp : u.indexOf('Safari') == -1
+		};
+	}()
+}
+</script>
+</script>
+</body>
+</html>
