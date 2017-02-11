@@ -110,11 +110,13 @@ function startBindMp(cuTar, sinUrl) {
 				
 			 	var isIos = browser.versions.ios;
 			 	var posterVal = "";
-			 	if(isIos) {
 			 		posterVal = "images/v/"+getFileOnlyName($(sin.key).find("source").attr("src"))+".jpg";
+			 	if(isIos) {
 			 	} else {
 			 		posterVal = canvasImg.src;
 			 	}
+			 	
+			 	alert("1");
 			 	
 				$($("video")[i]).mediaelementplayer({
 					poster: posterVal,
