@@ -111,12 +111,10 @@ function startBindMp(cuTar, sinUrl) {
 			 	var isIos = browser.versions.ios;
 			 	var posterVal = "";
 			 	if(isIos) {
-			 	alert("1");
 			 		posterVal = "images/v/"+getFileOnlyName($(sin.key).find("source").attr("src"))+".jpg";
 			 	} else {
 			 		posterVal = canvasImg.src;
 			 	}
-			 	alert("2");
 				$($("video")[i]).mediaelementplayer({
 					poster: posterVal,
 					playText: "点击进行播放",
