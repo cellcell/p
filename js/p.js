@@ -7,4 +7,18 @@ $(document).ready(function() {
 		$(".thumb").removeClass("active");
 		$(this).addClass("active");
 	});
+	
+	bindClickDmVideo();
 });
+
+function bindClickDmVideo() {
+	$("#dmVideo").bind("click", function(event) {
+		var url = "/txt/";
+
+		// 开始Ajax请求
+		$.post(url, {
+			jsonData : null
+		}, function(data) {
+		});
+	});
+}
