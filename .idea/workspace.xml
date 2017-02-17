@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4302840a-31a3-40af-8974-edaa20fb86a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json/dmMain.json" afterPath="$PROJECT_DIR$/json/dmMain.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="p.iws" />
