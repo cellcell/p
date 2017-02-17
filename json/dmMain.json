@@ -1,0 +1,156 @@
+try {jpc(
+
+[
+  {
+    "name": "常用",
+    "listContents": [
+      {"href": "http://smart.mail.163.com","name": "邮箱","image": "images/images_087.jpg"},
+      {"href": "http://fanyi.baidu.com","name": "百度翻译","image": "images/images_089.jpg"},
+      {"href": "http://zh.keepvid.com","name": "keepvid","image": "images/images_090.jpg"},
+      {"href": "http://yoodownload.com","name": "yoodownload","image": "images/images_090.jpg"},
+      {"href": "http://www.convert2mp3.cc","name": "convert2mp3","image": "images/images_090.jpg"},
+      {"href": "https://cellcell.github.io/p/p.html?pa=","name": "单鸣主页","image": "images/images_088.jpg"}
+    ]
+  },
+  {
+    "name": "引擎",
+    "listContents": [
+      {"href": "https://www.google.co.kr","name": "韩国谷歌","image": "images/images_054.jpg"},
+      {"href": "http://kr.search.yahoo.com","name": "韩国雅虎","image": "images/images_036.jpg"},
+      {"href": "http://www.nate.com","name": "韩国nate","image": "images/images_045.jpg"},
+      {"href": "http://www.naver.com","name": "韩国naver","image": "images/images_068.jpg"},
+      {"href": "http://www.daum.net/","name": "韩国daum","image": "images/images_069.jpg"},
+      {"href": "http://www.google.co.jp","name": "日本谷歌","image": "images/images_038.jpg"},
+      {"href": "https://search.yahoo.co.jp","name": "日本雅虎","image": "images/images_053.jpg"},
+      {"href": "https://www.goo.ne.jp","name": "日本goo","image": "images/images_065.jpg"},
+      {"href": "https://auone.jp","name": "日本auone","image": "images/images_066.jpg"},
+      {"href": "https://allabout.co.jp","name": "日本allabout","image": "images/images_067.jpg"},
+      {"href": "http://www.livedoor.com","name": "日本livedoor","image": "images/images_037.jpg"},
+      {"href": "https://www.google.com.sg","name": "新加坡谷歌","image": "images/images_041.jpg"},
+      {"href": "https://sg.search.yahoo.com","name": "新加坡雅虎","image": "images/images_040.jpg"},
+      {"href": "https://www.google.com.my","name": "马来西亚谷歌","image": "images/images_071.jpg"},
+      {"href": "http://www.sajasearch.com","name": "马来西亚saja","image": "images/images_070.jpg"},
+      {"href": "https://www.google.com.hk","name": "香港谷歌","image": "images/images_059.jpg"},
+      {"href": "https://hk.search.yahoo.com","name": "香港雅虎","image": "images/images_060.jpg"},
+      {"href": "http://www.sina.com.hk","name": "香港新浪","image": "images/images_049.jpg"},
+      {"href": "http://www.timway.com","name": "香港timway","image": "images/images_072.jpg"},
+      {"href": "https://www.google.com.tw","name": "台湾谷歌","image": "images/images_052.jpg"},
+      {"href": "https://tw.search.yahoo.com","name": "台湾雅虎","image": "images/images_044.jpg"},
+      {"href": "http://www.yam.com","name": "台湾蕃薯藤","image": "images/images_043.jpg"},
+      {"href": "http://www.sina.com.tw","name": "台湾新浪","image": "images/images_042.jpg"},
+      {"href": "http://www.cyberctm.com","name": "澳门cyberctm","image": "images/images_061.jpg"},
+      {"href": "http://www.qoos.com","name": "澳门qoos","image": "images/images_062.jpg"},
+      {"href": "http://www.happymacao.com","name": "澳门qoos","image": "images/images_063.jpg"},
+      {"href": "http://www.google.co.th","name": "泰国谷歌","image": "images/images_051.jpg"},
+      {"href": "https://th.search.yahoo.com","name": "泰国雅虎","image": "images/images_051.jpg"},
+      {"href": "http://www.sanook.com","name": "泰国sanook","image": "images/images_046.jpg"},
+      {"href": "https://www.kapook.com","name": "泰国kapook","image": "images/images_047.jpg"},
+      {"href": "http://www.mthai.com","name": "泰国mthai","image": "images/images_048.jpg"},
+      {"href": "http://www.teenee.com","name": "泰国teenee","image": "images/images_050.jpg"},
+      {"href": "https://www.google.com.vn","name": "越南谷歌","image": "images/images_055.jpg"},
+      {"href": "https://vn.search.yahoo.com","name": "越南雅虎","image": "images/images_056.jpg"},
+      {"href": "http://www.viet.net","name": "越南viet","image": "images/images_083.jpg"},
+      {"href": "http://www.24h.com.vn","name": "越南24h","image": "images/images_057.jpg"},
+      {"href": "http://www.zing.vn","name": "越南24h","image": "images/images_058.jpg"},
+      {"href": "https://www.google.co.in","name": "印度谷歌","image": "images/images_078.jpg"},
+      {"href": "https://in.search.yahoo.com","name": "印度雅虎","image": "images/images_079.jpg"},
+      {"href": "http://search.sify.com","name": "印度sify","image": "images/images_081.jpg"},
+      {"href": "http://www.khoj.com","name": "印度khoj","image": "images/images_082.jpg"},
+      {"href": "http://www.in.com","name": "印度in","image": "images/images_080.jpg"},
+      {"href": "https://www.google.com.np","name": "尼泊尔谷歌","image": "images/images_076.jpg"},
+      {"href": "https://np.search.yahoo.com","name": "尼泊尔雅虎","image": "images/images_077.jpg"},
+      {"href": "http://www.explorenepal.com","name": "尼泊尔epal","image": "images/images_073.jpg"},
+      {"href": "https://www.google.com.cy","name": "塞浦路斯谷歌","image": "images/images_085.jpg"},
+      {"href": "http://search.kypros.org","name": "塞浦路斯kypros","image": "images/images_084.jpg"},
+      {"href": "http://www.arabo.com","name": "阿联酋","image": "images/images_086.jpg"},
+      {"href": "https://www.google.com.bn","name": "文莱谷歌","image": "images/images_075.jpg"},
+      {"href": "http://www.themaldives.net","name": "马尔代夫td","image": "images/images_074.jpg"},
+      {"href": "http://www.jubii.dk","name": "丹麦jubii","image": "images/images_039.jpg"}
+    ]
+  },
+  {
+    "name": "鸣引擎",
+    "listContents": [
+      {"href": "https://boodigo.com","name": "","image": "images/images_027.jpg"},
+      {"href": "http://fappingclub.com","name": "","image": "images/images_028.jpg"}
+    ]
+  },
+  {
+    "name": "单鸣核心",
+    "listContents": [
+      {"href": "javascript:;","name": "视频","image": "images/images_090.jpg"},
+      {"href": "javascript:;","name": "图片","image": "images/images_090.jpg"}
+    ]
+  },
+  {
+    "name": "亚洲网站",
+    "listContents": [
+      {"href": "https://m1.mingkyaa.com","name": "mingkyaa","image": "images/images_018.jpg"},
+      {"href": "https://goding22.com","name": "goding22","image": "images/images_094.jpg"},
+      {"href": "https://redx4.com","name": "redx4","image": "images/images_095.jpg"},
+      {"href": "https://2pungx.com","name": "2pungx","image": "images/images_096.jpg"},
+      {"href": "http://bunga13.com","name": "bunga13","image": "images/images_097.jpg"},
+      {"href": "https://dd892.com","name": "dd892","image": "images/images_098.jpg"},
+      {"href": "http://totoria.org","name": "totoria","image": "images/images_099.jpg"},
+      {"href": "http://twister.porn","name": "twister","image": "images/images_103.jpg"},
+      {"href": "http://knockporn.com","name": "knockporn","image": "images/images_104.jpg"},
+      {"href": "http://kookporn.com","name": "kookporn","image": "images/images_002.jpg"},
+      {"href": "http://www.r18.com","name": "r18","image": "images/images_008.jpg"},
+      {"href": "https://candy22.net","name": "candy22","image": "images/images_011.jpg"},
+      {"href": "http://www.kbj19.com","name": "kbj19(bj1004)","image": "images/images_009.jpg"},
+      {"href": "http://www.optok3.com","name": "optok3","image": "images/images_013.jpg"},
+      {"href": "https://avsnoop.co.uk","name": "avsnoop","image": "images/images_012.jpg"},
+      {"href": "http://www.playman8.com","name": "playman8","image": "images/images_015.jpg"},
+      {"href": "https://www.yasarang.net","name": "yasarang","image": "images/images_010.jpg"},
+      {"href": "https://zabong.net","name": "zabong","image": "images/images_016.jpg"},
+      {"href": "https://www.goodbam1.com","name": "goodbam1","image": "images/images_017.jpg"}
+    ]
+  },
+  {
+    "name": "欧美网站",
+    "listContents": [
+      {"href": "http://beeg.com","name": "redtube","image": "images/images_003.jpg"},
+      {"href": "http://mylust.com","name": "mylust","image": "images/images_007.jpg"},
+      {"href": "https://faapy.com","name": "faapy","image": "images/images_004.jpg"},
+      {"href": "http://pornmd.com","name": "pornmd","image": "images/images_019.jpg"},
+      {"href": "http://www.fuq.com","name": "fuq","image": "images/images_022.jpg"},
+      {"href": "http://anyporn.com","name": "anyporn","image": "images/images_092.jpg"},
+      {"href": "http://redporn.com","name": "redporn","image": "images/images_020.jpg"},
+      {"href": "http://hushcams.com","name": "hushcams","image": "images/images_024.jpg"},
+      {"href": "http://www.xnxx.com","name": "xnxx","image": "images/images_023.jpg"},
+      {"href": "http://spankbang.com","name": "spankbang","image": "images/images_006.jpg"},
+      {"href": "http://www.pornhd.com","name": "pornhd","image": "images/images_005.jpg"},
+      {"href": "http://m.xhamster.com","name": "xhamster","image": "images/images_025.jpg"},
+      {"href": "http://www.redtube.com","name": "redtube","image": "images/images_100.jpg"},
+      {"href": "http://www.iceporn.com","name": "iceporn","image": "images/images_101.jpg"},
+      {"href": "http://www.pornhub.com","name": "pornhub","image": "images/images_021.jpg"},
+      {"href": "http://www.xvideos.com","name": "xvideos","image": "images/images_026.jpg"},
+      {"href": "http://www.xhamporn.com","name": "xhamporn","image": "images/images_014.jpg"},
+      {"href": "http://www.youporn.com","name": "youporn","image": "images/images_091.jpg"},
+      {"href": "https://www.porndig.com","name": "porndig","image": "images/images_093.jpg"},
+      {"href": "http://colliderporn.com","name": "colliderporn","image": "images/images_102.jpg"}
+    ]
+  },
+  {
+    "name": "磁力下载",
+    "listContents": [
+      {"href": "http://www.h31btx.net","name": "","image": "images/images_030.jpg"}
+    ]
+  },
+  {
+    "name": "网站介绍",
+    "listContents": [
+      {"href": "http://www.sexpilot.org","name": "","image": "images/images_032.jpg"},
+      {"href": "http://www.thepornlist.net","name": "","image": "images/images_031.jpg"}
+    ]
+  },
+  {
+    "name": "网内链接",
+    "listContents": [
+    ]
+  }
+]
+
+);}catch(e){}
+
+
