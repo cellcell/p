@@ -81,7 +81,7 @@ if (locSe.indexOf(sec) != -1) {
 
 function startClSinVideo(i, len, sinUrl){
 	var html = "";
-	html += "<video id=\"video" + i + "\" playsinline controls>" + "\n";
+	html += "<video id=\"video" + i + "\" playsinline autoplay=\"autoplay\" controls>" + "\n";
 	html += " <source src=\""+ sinUrl +"\" type=\"video/mp4\" />" + "\n";
 	html += "</video>" + "\n";
 	$("#container").append(html);
