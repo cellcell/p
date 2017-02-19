@@ -23,7 +23,12 @@
 
  <body>
  
+ <video id="video2" playsinline controls>
+ <source src="http://mp4.76050.net/001/40100l9uz0k01.mp4" type="video/mp4" />
+</video>
+
   <div id="container">
+  
   </div>
   
 <!-- Js -->
@@ -70,7 +75,7 @@ if (locSe.indexOf(sec) != -1) {
 		var len = paArr.length;
 		
 		for (var i = 0; i < len; i++) {
-			var sinUrl = $.trim(paArr[i].replace("%20", ""));
+			var sinUrl = $.trim(paArr[i]);
 			startClSinVideo(i, len, sinUrl);
 		}
 	}
@@ -88,10 +93,6 @@ function startClSinVideo(i, len, sinUrl){
 	var videoDom = $("#video" + i);
 	var videoZero = videoDom[0];
 	
-	videoZero.addEventListener("loadedmetadata", function(e) {
-		 
-	}, false);
-	
 	var cuTar = videoZero;
     var canvas = document.createElement("canvas");
     canvas.width = cuTar.videoWidth * 1;
@@ -104,7 +105,7 @@ function startClSinVideo(i, len, sinUrl){
     
     if(videoCount==(len-1)){
     	isLoadedmetadataOver = true;
-    	startBindMp(cuTar, sinUrl);
+    	// startBindMp(cuTar, sinUrl);
       }
     	   
    videoCount++;
