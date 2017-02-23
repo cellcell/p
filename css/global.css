@@ -40,46 +40,5 @@ a:hover
   ,a:visited
   ,a{text-decoration:none;border:0;outline:none;-webkit-tap-highlight-color:transparent;}
 input,textarea{-webkit-appearance:none;}
-video{padding:0;margin:0px;}
-
-.clear{clear:both;}
-.hide{display:none;}
-
-header{width:7.5rem;height:.94rem;background-color:#fff;color:#313131;left:0;top:0;position:relative;border-bottom:1px solid #dcdcdc;}
-
-.logoWrap{margin:0 auto;width:2.1rem;height:100%;position:relative;}
-.logoInner{width:2.1rem;height:.56rem;position:absolute;top:.225rem;background-size:cover;}
-.logoInner img{width:7.5rem;height:100%;}
-
-.user-info{width:.58rem;height:.58rem;position:absolute;left:.25rem;top:.225rem;cursor:pointer;}
-.user-info img{width:100%;height:100%;border-radius:100%;position:absolute;}
-.user-info-label{display:block;width:100%;height:100%;cursor:pointer;}
-.searchImg{width:.58rem;height:.58rem;position:absolute;right:.25rem;top:.225rem;background-size:cover;cursor:pointer;}
-
-#clickShowBtn{display:none;}
-#clickShowBtn:checked ~ section{transform:translateX(1.8rem);}
-#clickShowBtn:checked ~ .sideDiv{top:0rem;background:#323c3c;}
-#clickShowBtn:checked ~ .sideDiv .sideNav b{opacity:1;transform:translateX(0);}
-
-#clickShowBtn:checked ~ .sideDiv .sideNav li:nth-child(1) b{transition-delay:.08s;}
-#clickShowBtn:checked ~ .sideDiv .sideNav li:nth-child(2) b{transition-delay:.16s;}
-#clickShowBtn:checked ~ .sideDiv .sideNav li:nth-child(3) b{transition-delay:.24s;}
-#clickShowBtn:checked ~ .sideDiv .sideNav li:nth-child(4) b{transition-delay:.32s;}
-#clickShowBtn:checked ~ .sideDiv .sideNav li:nth-child(5) b{transition-delay:.40s;}
-#clickShowBtn:checked ~ .sideDiv .sideNav li:nth-child(6) b{transition-delay:.48s;}
-
-.sideDiv{width:1.8rem;position:absolute;left:0;top:-10000rem;}
-
-.sideNav{padding:.15rem;}
-.sideNav li{list-style-type:none;}
-.sideNav a{color:#fff;text-decoration:none;}
-.sideNav a.active{color:#3bd692}
-.sideNav b{font-size:.25rem;font-weight:normal;line-height:.6rem;display:block;opacity:0;transform:translateX(0.6rem);transition:all .4s;}
-.sideNav img{display:block;top:.18rem;float:left;width:.4rem;height:.22rem;line-height:.6rem;position:relative}
-
-.imgDiv{margin:0 auto;width:100%;padding:0 .11rem;}
-.imgDiv>div{display:none}
-.imgDiv a{float:left;margin:.04rem .11rem;}
-.imgDiv a img{width:1.6rem;height:1.6rem;}
 
 .sinImg{margin:0;padding:0;float:left;border:none;}
