@@ -9,6 +9,7 @@ try {jpc(
       {"href": "http://zh.keepvid.com","name": "keepvid","image": "https://cellcell.github.io/p/images/images_090.jpg"},
       {"href": "http://yoodownload.com","name": "yoodownload","image": "https://cellcell.github.io/p/images/images_090.jpg"},
       {"href": "http://www.convert2mp3.cc","name": "convert2mp3","image": "https://cellcell.github.io/p/images/images_090.jpg"},
+      {"href": "http://www.clipconverter.cc","name": "clipconverter","image": "https://cellcell.github.io/p/images/images_090.jpg"},
       {"href": "https://cellcell.github.io/p/p.html?pa=","name": "单鸣主页","image": "https://cellcell.github.io/p/images/images_088.jpg"}
     ]
   },
