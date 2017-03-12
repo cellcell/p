@@ -1,7 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4302840a-31a3-40af-8974-edaa20fb86a9" name="Default" comment="" />
+    <list default="true" id="4302840a-31a3-40af-8974-edaa20fb86a9" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_004.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_006.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_010.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_011.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_012.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_014.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_015.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_016.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_017.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_018.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_019.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_020.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_021.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_022.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_023.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_024.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_025.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_026.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_027.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_028.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_029.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_031.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_032.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_033.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_034.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_035.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_036.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_037.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_038.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_039.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_040.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_041.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_042.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_043.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_044.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_045.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_046.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_047.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_048.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_049.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_050.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_051.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_052.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_053.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_054.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_055.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_056.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_057.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_058.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_059.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_060.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_061.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_062.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_063.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_064.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_065.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_066.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_067.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_068.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_069.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_070.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_071.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_072.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_073.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_074.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_075.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_076.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_077.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_078.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_079.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_081.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_082.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_083.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_084.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_085.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_086.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_087.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_088.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_089.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_090.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_091.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_092.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_093.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_094.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_095.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_096.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_097.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_098.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_099.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_101.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_102.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_103.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\images\images_104.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspacejava\bStPro\p\json\dmMain2.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json/dmMain.json" afterPath="$PROJECT_DIR$/json/dmMain.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="p.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +135,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/json/side.json" />
-        <option value="$PROJECT_DIR$/json/dmMain2.json" />
         <option value="$PROJECT_DIR$/json/dmImage.json" />
-        <option value="$PROJECT_DIR$/json/dmMain.json" />
         <option value="$PROJECT_DIR$/json/dmOmNa.json" />
         <option value="$PROJECT_DIR$/json/test.json" />
+        <option value="$PROJECT_DIR$/json/dmMain2Result.json" />
+        <option value="$PROJECT_DIR$/json/dmMain2.json" />
+        <option value="$PROJECT_DIR$/json/dmMain.json" />
       </list>
     </option>
   </component>
@@ -73,7 +180,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -82,9 +189,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="p" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="p" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="p" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="p" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="videos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="p" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="p" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -97,6 +242,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspacejava\bStPro\p\json" />
       <recent name="D:\workspacejava\dOtPro\p\json" />
     </key>
   </component>
@@ -131,6 +277,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
   </component>
@@ -148,10 +300,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21979167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -194,19 +346,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json/dmMain.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1088.4286">
-          <caret line="1604" column="0" selection-start-line="1604" selection-start-column="0" selection-end-line="1604" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/json/dmOmLx.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.77136517">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -214,7 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3163152">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -222,6 +364,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85238624">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/dmMain.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83129853">
+          <caret line="1319" column="1" selection-start-line="1319" selection-start-column="1" selection-end-line="1319" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/dmMain2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
