@@ -273,6 +273,16 @@ try {jpc(
     ]
   },
   {
+    "name": "电影",
+    "listContents": [
+      {
+        "href": "https://123movies.is",
+        "name": "123movies",
+        "image": "https://cellcell.github.io/p/images/dmMain/20170312174020_951f8e41fe784dada2754579ee9185b8.png"
+      }
+    ]
+  },
+  {
     "name": "视频网",
     "listContents": [
       {
