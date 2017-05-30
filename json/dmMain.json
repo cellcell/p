@@ -832,6 +832,11 @@ try {jpc(
         "href": "https://zabong.net",
         "name": "zabong",
         "image": "https://cellcell.github.io/p/images/dmMain/20170312155559_c350190346644b34a98812e74b5dad6f.png"
+      },
+      {
+        "href": "https://avgle.com",
+        "name": "avgle",
+        "image": ""
       }
     ]
   },
