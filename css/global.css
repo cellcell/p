@@ -118,8 +118,6 @@ strong
   ,.strong{font-weight:bold;}
 em
   ,.em{font-style:italic;}
-ins
-  ,.ins{background-color:#ff9;color:#000;text-decoration:none;}
 abbr[title]
   ,dfn[title]{border-bottom:1px dotted;cursor:help;}
 sub{vertical-align:sub;font-size:smaller;}

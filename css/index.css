@@ -1,3 +1,5 @@
+.rsiw-image{max-width:100%;}
+
 /******************************************************************
 POST STYLES
 ******************************************************************/
@@ -217,7 +219,7 @@ HEADER SYTLES
 ******************************************************************/
 header[role=banner]{background-color:#fff;position:relative;}
 header[role=banner] div{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
-#site-heading{margin-bottom:5px;width:50%;float:left;}
+#site-heading{margin-bottom:30px;width:50%;float:left;}
 #site-title{margin-bottom:.1em;font-family:"Open Sans","Arial Black",Gadget,sans-serif;font-size:45px;font-weight:800;line-height:1.0em;text-transform:uppercase;padding-left:30px;padding-top:30px;text-shadow:1px 2px #fff,2px 5px #e2e2e2;}
 #site-logo{padding-left:30px;padding-top:20px;padding-bottom:6px;}
 #site-logo img{max-width:100%;}
@@ -508,7 +510,7 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 }
 
 @media only screen and (max-width: 824px) {
-	#site-title{margin-right:0;}
+	#site-title{margin-right:0;padding-left:0;}
 	#site-description{margin-right:0;}
 	header[role=banner] #searchform{top:6px;right:10px;}
 	#site-heading{width:100%;float:none;text-align:center;}
